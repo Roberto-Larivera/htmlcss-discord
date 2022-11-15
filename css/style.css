@@ -28,14 +28,14 @@ body{
 
 .contenitore-button-jumb button,
 .box-4-button button{
-    font-size: 1em;
+    font-size: 1.3em;
 }
-.header-sopra button, 
-#header-beta button{
-    background-color: white;
+
+.header-button button{
     padding: 10px 20px;
 }
-.header-sotto button:first-child{
+.header-sotto button:first-child,
+header .header-button button{
     background-color: white;
 }
 .header-sotto button:first-child::before,
@@ -48,10 +48,13 @@ body{
     color: white;
 }
 .box-4-button button,
-#header-beta button{
+footer .header-button button{
     /* background-color: #255de9; */
     background-color: #8ea1e1;
     color: white;
+}
+.contenitore-button-jumb button{
+    margin: 0 20px;
 }
 
 /* HEADER SUPERIORE*/
@@ -67,7 +70,7 @@ body{
     display: flex;
     align-items: center;
 }
-#header-beta{
+.header-button{
     display: flex;
     justify-content: flex-end;
 }
@@ -224,15 +227,31 @@ main h2{
 .footer-sez-1 h3{
     color: #7289da;
     font-weight: 900;
+    font-size: 1.5em;
 }
 .footer-sez-1 a{
     color: white;
     text-decoration: none;
+    
 }
+.footer-sez-1 a::after{
+   content: '\2335';
+   margin-left: 5px;
+}
+.footer-sez-1 h3,
+#icon-social{
+   margin: 10px 0;
+}
+#icon-social i{
+    margin: 0 10px;
+    color: white;
+}
+
 /* ELENCO */
 
 .footer-sez-1{
     width: 36% ;
+
 } 
 .footer-sez-a{
     width: calc(64% / 4);
