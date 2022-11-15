@@ -23,18 +23,30 @@
     display: flex;
     align-items: center;
 }
+#header-sopra{
+    padding: 20px 0;
+}
+#header-alfa{
+    display: flex;
+    align-items: center;
+}
+#header-beta{
+    display: flex;
+    justify-content: flex-end;
+}
 .header-sopra{
     background-color: #3161e0;
 
+}
+#header-img{
+    display: flex;
+    align-items: center;
 }
 .maxi-header ul li a, 
 .color-white-header{
     color: white;
 }
 
-.header-alfa > *{
-    padding: 10px;
-}
 .mini-header{
     width: 25%;
 }
@@ -73,10 +85,10 @@
     align-items: center;
     justify-content: center;
 }
-.jumbotron h2 , .jumbotron p{
+.jumbotron h1 , .jumbotron p{
     color: white;
 }
-.jumbotron h2{
+.jumbotron h1{
     font-size: 2.5em;
 }
 .jumbotron p{
@@ -91,6 +103,17 @@
 
 
 /* MAIN SEZIONE  */
+/* ALFA - BETA + COLORI  */
+.cont-sezione-alfa{
+    width: 60%;
+    height: 500px;
+}
+.cont-sezione-beta{
+    width: 40%;
+    height: 500px;
+}
+
+
 main h2{
     font-size: 2em;
 }
@@ -100,6 +123,9 @@ main p{
 .contenitore-testo{
    
     max-width: 80%;
+}
+.sezione-main img{
+    width: 100%;
 }
 .sezione-1 .cont-sezione-beta{
     display: flex;
@@ -122,10 +148,24 @@ main p{
     align-items: center;
 }
 
-/* DEBUG */
-.debug{
-    padding: 15px;
+/* SEZIONE 4 */
+
+.sezione-4{
+    background-color: antiquewhite;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
 .debug .container-flex-bet{
     display: flex;
     justify-content: space-between;
@@ -141,20 +181,6 @@ main p{
 }
 
 
-/* .debug main, .debug footer{
-    display: none;
-} */
-
-
-/* HEADER */
-
-
-/* .debug .mini-header{
-    width: 25%;
-}
-.debug .maxi-header{
-    width:50%
-} */
 
 
 
@@ -180,26 +206,14 @@ main p{
     width: 40%;
     height: 500px;
 }
-/* ******* + COLORI */
-.debug .cont-sezione-a{
-    background-color: yellowgreen;
-    
-}
-.debug .cont-sezione-b{
-    background-color: brown;
-    
-}
+
 
 
 
 /* SEZIONE 4 */
-.debug .sezione-4{
-    background-color: antiquewhite;
-}
+.debug 
 .debug .cont-sezione-4{
     background-color: gray;
-    
-    height: 500px;
 }
 
 
