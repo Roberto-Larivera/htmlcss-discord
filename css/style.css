@@ -106,7 +106,7 @@ body{
 
 
 /* MAIN SEZIONE  */
-/* ALFA - BETA + COLORI  */
+/* ALFA - BETA */
 .cont-sezione-alfa{
     width: 60%;
     height: 500px;
@@ -116,6 +116,9 @@ body{
     height: 500px;
 }
 
+.sezione-2{
+    background-color: #f6f6f6;
+}
 
 main h2{
     font-size: 2em;
@@ -144,7 +147,7 @@ main p{
 /* SEZIONE 4 */
 
 .sezione-4{
-    background-color: antiquewhite;
+    background-color: #f6f6f6;
 }
 
 .sezione-4 h2, .sezione-4 p{
@@ -163,9 +166,17 @@ main p{
 
 
 /* FOOTER */
-
-/* ELENCO 1 */
-.box-footer-1{
+/* BOX-BIG-TEXT */
+.footer-sez-1 h3{
+    color: #7289da;
+    font-weight: 900;
+}
+.footer-sez-1 a{
+    color: white;
+    text-decoration: none;
+}
+/* ELENCO */
+.box-footer{
     background-color: #23272a;
 }
 .footer-sez-1{
@@ -187,7 +198,7 @@ main p{
     color: white;
 }
 .box-elenco ul li:first-child{
-    color: blueviolet;
+    color: #7289da;
 }
 
 
@@ -229,14 +240,6 @@ main p{
     padding: 50px 0;
 }
 
-.debug .sezione-2{
-    background-color: antiquewhite;
-}
-.debug .contenitore-sezione-1{
-    background-color: yellow;
-    
-}
-
 /* ALFA - BETA + COLORI  */
 .debug .cont-sezione-alfa{
     width: 60%;
@@ -251,39 +254,13 @@ main p{
 
 
 /* SEZIONE 4 */
-.debug 
-.debug .cont-sezione-4{
-    background-color: gray;
-}
-
 
 /* FOOTER */
-.debug .footer-sezione-1{
-    background-color: lightgray;
-}
-.debug .footer-sez-1{
-    background-color: blueviolet;
-}
-.debug .footer-sez-2{
-    background-color: gold;
-}
-.debug .footer-sez-3{
-    background-color: goldenrod;
-} 
-.debug .footer-sez-4{
-    background-color: green;
-} 
-.debug .footer-sez-5{
-    background-color: greenyellow;
-} 
+
 
 .debug .footer-sezione-2{
-    background-color: lightgray;
    
     padding-top: 30px;
-}
-.debug .footer-end{
-    background-color: mediumslateblue;
 }
 
 .debug .footer-sezione-2 .button{
