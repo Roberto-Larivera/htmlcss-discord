@@ -30,7 +30,8 @@ body{
 .box-4-button button{
     font-size: 1em;
 }
-.header-sopra button{
+.header-sopra button, 
+#header-beta button{
     background-color: white;
     padding: 10px 20px;
 }
@@ -46,11 +47,13 @@ body{
     background-color: #23272a;
     color: white;
 }
-.box-4-button button{
+.box-4-button button,
+#header-beta button{
     /* background-color: #255de9; */
     background-color: #8ea1e1;
     color: white;
 }
+
 /* HEADER SUPERIORE*/
 
 .header-alfa{
@@ -121,7 +124,8 @@ body{
     align-items: center;
     justify-content: center;
 }
-.jumbotron h1 , .jumbotron p{
+.jumbotron h1 ,
+.jumbotron p{
     color: white;
     text-align: center;
 }
@@ -164,12 +168,14 @@ main h2{
 .sezione-main img{
     width: 100%;
 }
-.sezione-1 .cont-sezione-beta, .sezione-2 .cont-sezione-alfa{
+.sezione-1 .cont-sezione-beta,
+.sezione-2 .cont-sezione-alfa{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.sezione-1 .cont-sezione-alfa, .sezione-2 .cont-sezione-beta{
+.sezione-1 .cont-sezione-alfa,
+.sezione-2 .cont-sezione-beta{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -181,7 +187,8 @@ main h2{
     background-color: #f6f6f6;
 }
 
-.sezione-4 h2, .sezione-4 p{
+.sezione-4 h2,
+.sezione-4 p{
     text-align: center;
 }
 .box-4{
@@ -210,6 +217,7 @@ main h2{
 #footer-bg hr{
     margin: 30px auto;
     max-width: 1200px;
+    border-color:  #7289da;
     
 }
 /* BOX-BIG-TEXT */
@@ -260,6 +268,14 @@ main h2{
 
 /*++++++++++++++++++++++++++++++++++++++ DEBUG ++++++++++++++++++++++++++++++*/
 
+/* .debug .border-red{
+    border: 2px dashed red;
+} */
+
+
+
+
+
 .debug .container-flex-bet{
     display: flex;
     justify-content: space-between;
@@ -270,25 +286,4 @@ main h2{
 .debug .container-flex-align{
     align-items: center;
 }
-/* .debug .border-red{
-    border: 2px dashed red;
-} */
 
-
-
-
-
-/* SEZIONI */
-
-/* FOOTER */
-
-
-
-.debug .footer-sezione-2 .button{
-    background-color: rgb(255, 187, 0);
-    padding: 5px;
-}
-.debug .footer-sezione-2 .logo{
-    background-color: rgb(255, 187, 0);
-    padding: 5px;
-}
