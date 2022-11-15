@@ -13,13 +13,25 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* BUTTON ALL */
 .button-alfa{
-    padding: 7px 10px;
+    /* padding: 7px 10px; */
+    padding: 10px;
     border-radius: 30px;
     border: 0;
 }
 
-
+.header-sopra button{
+    background-color: white;
+}
+.header-sotto button:first-child{
+    background-color: white;
+}
+.header-sotto button:last-child{
+    background-color: #23272a;
+    color: white;
+}
 /* HEADER SUPERIORE*/
 
 .header-alfa{
@@ -38,7 +50,7 @@ body{
     justify-content: flex-end;
 }
 .header-sopra{
-    background-color: #3161e0;
+    background-color: #255ee9;
 
 }
 #header-img{
@@ -64,6 +76,7 @@ body{
 }
 .maxi-header ul li a{
     text-decoration: none;
+    margin: 0 5px;
 }
 
 
@@ -72,7 +85,8 @@ body{
 
 /* HEADER INFERIORE */
 .header-sotto{
-    padding: 30px 0;
+    /* padding-top: 30px; */
+    /* padding: 30px 0; */
     
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -90,16 +104,19 @@ body{
 }
 .jumbotron h1 , .jumbotron p{
     color: white;
+    text-align: center;
 }
 .jumbotron h1{
     font-size: 2.5em;
 }
-.jumbotron p{
+.jumbotron h1,
+.jumbotron p,
+.jumbotron div{
     margin: 20px 0;
-    text-align: center;
-
 }
-
+.jumbotron p{
+    font-weight: 500;
+}
 .contenitore-button-jumb button{
     font-size: 1em;
 }
