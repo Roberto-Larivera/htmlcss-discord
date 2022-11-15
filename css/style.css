@@ -17,19 +17,36 @@ body{
 /* BUTTON ALL */
 .button-alfa{
     /* padding: 7px 10px; */
-    padding: 10px;
+    padding: 15px;
     border-radius: 30px;
     border: 0;
+    
 }
 
+.contenitore-button-jumb button,
+.box-4-button button{
+    font-size: 1em;
+}
 .header-sopra button{
     background-color: white;
+    padding: 10px;
 }
 .header-sotto button:first-child{
     background-color: white;
 }
+.header-sotto button:first-child::before{
+    content: '\2193';
+    font-weight: bold;
+    
+    margin: 0 10px;
+}
 .header-sotto button:last-child{
     background-color: #23272a;
+    color: white;
+}
+.box-4-button button{
+    /* background-color: #255de9; */
+    background-color: #8ea1e1;
     color: white;
 }
 /* HEADER SUPERIORE*/
@@ -117,9 +134,6 @@ body{
 .jumbotron p{
     font-weight: 500;
 }
-.contenitore-button-jumb button{
-    font-size: 1em;
-}
 
 
 /* MAIN SEZIONE  */
@@ -139,9 +153,7 @@ body{
 
 main h2{
     font-size: 2em;
-}
-main p{
-
+    margin-bottom: 20px;
 }
 .contenitore-testo{
    
@@ -178,9 +190,10 @@ main p{
 .box-4-button{
     display: flex;
     justify-content: center;
-    font-size: 1em;
 }
-
+.sezione-4 .box-4 p:nth-child(3){
+    font-size: 1.5em;
+}
 
 /* FOOTER */
 #footer-bg{
