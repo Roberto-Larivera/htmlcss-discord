@@ -147,6 +147,9 @@ footer .header-button button{
 
 
 /* MAIN SEZIONE  */
+.container-flex{
+    display: flex;
+}
 /* ALFA - BETA */
 .cont-sezione-alfa{
     width: 60%;
@@ -278,7 +281,10 @@ main h2{
 
 
 /* FOTTER INFERIORE */
-
+.container-flex-bet{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -293,22 +299,6 @@ main h2{
 
 /*++++++++++++++++++++++++++++++++++++++ DEBUG ++++++++++++++++++++++++++++++*/
 
-/* .debug .border-red{
+.debug .border-red{
     border: 2px dashed red;
-} */
-
-
-
-
-
-.debug .container-flex-bet{
-    display: flex;
-    justify-content: space-between;
 }
-.debug .container-flex{
-    display: flex;
-}
-.debug .container-flex-align{
-    align-items: center;
-}
-
