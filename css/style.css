@@ -6,6 +6,9 @@
 }
 
 /* GENERALE */
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .contenitore{
     max-width: 1200px;
     margin: 0 auto;
@@ -127,24 +130,14 @@ main p{
 .sezione-main img{
     width: 100%;
 }
-.sezione-1 .cont-sezione-beta{
+.sezione-1 .cont-sezione-beta, .sezione-2 .cont-sezione-alfa{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.sezione-1 .cont-sezione-alfa{
+.sezione-1 .cont-sezione-alfa, .sezione-2 .cont-sezione-beta{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-}
-.sezione-2 .cont-sezione-beta{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.sezione-2 .cont-sezione-alfa{
-    display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -154,17 +147,26 @@ main p{
     background-color: antiquewhite;
 }
 
+.sezione-4 h2, .sezione-4 p{
+    text-align: center;
+}
+.box-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-4-button{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+}
 
 
 
 
 
 
-
-
-
-
-/* DEBUG */
+/*++++++++++++++++++++++++++++++++++++++ DEBUG ++++++++++++++++++++++++++++++*/
 
 .debug .container-flex-bet{
     display: flex;
