@@ -90,8 +90,37 @@
 }
 
 
+/* MAIN SEZIONE  */
+main h2{
+    font-size: 2em;
+}
+main p{
 
-
+}
+.contenitore-testo{
+   
+    max-width: 80%;
+}
+.sezione-1 .cont-sezione-beta{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sezione-1 .cont-sezione-alfa{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sezione-2 .cont-sezione-beta{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sezione-2 .cont-sezione-alfa{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 /* DEBUG */
 .debug{
