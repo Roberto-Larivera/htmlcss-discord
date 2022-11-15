@@ -162,6 +162,44 @@ main p{
 }
 
 
+/* FOOTER */
+
+/* ELENCO 1 */
+.box-footer-1{
+    background-color: #23272a;
+}
+.footer-sez-1{
+    height: 400px;
+    width: 36% ;
+} 
+.footer-sez-a{
+    height: 400px;
+    width: calc(64% / 4);
+} 
+
+.box-elenco ul{
+    list-style-type: none;
+}
+.box-elenco ul li a{
+    text-decoration: none;
+}
+.box-elenco ul li a{
+    color: white;
+}
+.box-elenco ul li:first-child{
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -225,14 +263,7 @@ main p{
 }
 .debug .footer-sez-1{
     background-color: blueviolet;
-    
-    height: 400px;
-    width: 36% ;
-} 
-.debug .footer-sez-a{
-    height: 400px;
-    width: calc(64% / 4);
-} 
+}
 .debug .footer-sez-2{
     background-color: gold;
 }
