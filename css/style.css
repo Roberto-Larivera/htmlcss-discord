@@ -20,7 +20,8 @@ body{
 /* BUTTON ALL */
 .button-alfa{
     /* padding: 7px 10px; */
-    padding: 15px;
+    /* padding: 15px; */
+    padding:15px 30px ;
     border-radius: 30px;
     border: 0;
     
@@ -237,6 +238,7 @@ main h2{
 .footer-sez-1 a::after{
    content: '\2335';
    margin-left: 5px;
+   
 }
 .footer-sez-1 h3,
 #icon-social{
@@ -260,8 +262,12 @@ main h2{
 .box-elenco ul{
     list-style-type: none;
 }
+.box-elenco ul li{
+    margin: 10px 0;
+}
 .box-elenco ul li a{
     text-decoration: none;
+    
 }
 .box-elenco ul li a{
     color: white;
