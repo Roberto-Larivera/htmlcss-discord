@@ -13,6 +13,9 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+.sezione-main, .sezione-4, .footer-sezione-1{
+    padding: 80px 0;
+}
 
 /* BUTTON ALL */
 .button-alfa{
@@ -29,16 +32,15 @@ body{
 }
 .header-sopra button{
     background-color: white;
-    padding: 10px;
+    padding: 10px 20px;
 }
 .header-sotto button:first-child{
     background-color: white;
 }
-.header-sotto button:first-child::before{
+.header-sotto button:first-child::before,
+.box-4-button button::before{
     content: '\2193';
-    font-weight: bold;
-    
-    margin: 0 10px;
+    margin-right: 10px;
 }
 .header-sotto button:last-child{
     background-color: #23272a;
@@ -193,6 +195,10 @@ main h2{
 }
 .sezione-4 .box-4 p:nth-child(3){
     font-size: 1.5em;
+    padding: 30px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* FOOTER */
@@ -273,9 +279,6 @@ main h2{
 
 
 /* SEZIONI */
-.debug .sezione-main, .debug .sezione-4, .debug .footer-sezione-1{
-    padding: 50px 0;
-}
 
 /* FOOTER */
 
