@@ -1,0 +1,197 @@
+/* RESET GENERALE */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* GENERALE */
+.contenitore{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HARDER */
+.header-alfa{
+    display: flex;
+}
+.header-alfa > *{
+    padding: 10px;
+}
+.mini-header{
+    width: 25%;
+}
+.maxi-header{
+    width:50%
+}
+.maxi-header ul{
+    list-style-type: none;
+    text-align: center;
+}
+.maxi-header ul li{
+    display: inline-block; 
+}
+.maxi-header ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-sotto{
+    padding: 30px 0;
+}
+.header-sotto .jumbotron{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+
+
+
+
+
+
+
+/* DEBUG */
+.debug{
+    padding: 15px;
+}
+.debug .container-flex-bet{
+    display: flex;
+    justify-content: space-between;
+}
+.debug .container-flex{
+    display: flex;
+}
+.debug .container-flex-align{
+    align-items: center;
+}
+.debug .border-red{
+    border: 2px dashed red;
+}
+
+
+/* .debug main, .debug footer{
+    display: none;
+} */
+
+
+/* HEADER */
+.debug .header-sopra{
+    background-color: cyan;
+}
+.debug .header-sopra .contenitore{
+    background-color: orange;
+}
+
+.debug .mini-header{
+    width: 25%;
+}
+.debug .maxi-header{
+    width:50%
+}
+
+.debug .header-sotto{
+    background-color: blue;
+}
+.header-sotto .jumbotron{
+    background-color: blueviolet;
+}
+
+/* **** MAIN */
+/* JUMBOTRON */
+
+
+
+
+/* SEZIONI */
+.debug .sezione-main, .debug .sezione-4, .debug .footer-sezione-1{
+    padding: 50px 0;
+}
+.debug .sezione-1{
+    background-color: aqua;  
+}
+.debug .sezione-2{
+    background-color: antiquewhite;
+}
+.debug .contenitore-sezione-1{
+    background-color: yellow;
+    
+}
+
+/* ALFA - BETA + COLORI  */
+.debug .cont-sezione-alfa{
+    width: 60%;
+    height: 500px;
+}
+.debug .cont-sezione-beta{
+    width: 40%;
+    height: 500px;
+}
+/* ******* + COLORI */
+.debug .cont-sezione-a{
+    background-color: yellowgreen;
+    
+}
+.debug .cont-sezione-b{
+    background-color: brown;
+    
+}
+
+
+
+/* SEZIONE 4 */
+.debug .sezione-4{
+    background-color: antiquewhite;
+}
+.debug .cont-sezione-4{
+    background-color: gray;
+    
+    height: 500px;
+}
+
+
+/* FOOTER */
+.debug .footer-sezione-1{
+    background-color: lightgray;
+}
+.debug .footer-sez-1{
+    background-color: blueviolet;
+    
+    height: 400px;
+    width: 36% ;
+} 
+.debug .footer-sez-a{
+    height: 400px;
+    width: calc(64% / 4);
+} 
+.debug .footer-sez-2{
+    background-color: gold;
+}
+.debug .footer-sez-3{
+    background-color: goldenrod;
+} 
+.debug .footer-sez-4{
+    background-color: green;
+} 
+.debug .footer-sez-5{
+    background-color: greenyellow;
+} 
+
+.debug .footer-sezione-2{
+    background-color: lightgray;
+   
+    padding-top: 30px;
+}
+.debug .footer-end{
+    background-color: mediumslateblue;
+}
+
+.debug .footer-sezione-2 .button{
+    background-color: rgb(255, 187, 0);
+    padding: 5px;
+}
+.debug .footer-sezione-2 .logo{
+    background-color: rgb(255, 187, 0);
+    padding: 5px;
+}
