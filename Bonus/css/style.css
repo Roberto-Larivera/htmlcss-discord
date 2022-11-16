@@ -163,6 +163,7 @@ footer .header-button button{
 
 .sezione-2{
     background-color: #f6f6f6;
+
 }
 
 main h2{
@@ -360,6 +361,21 @@ footer .header-button button:hover,
     background: #e7366b;
 }
 
+.wave-1{
+    background-image: url(/img/wave2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 300px;
+}
+.wave-2{
+    background-image: url(/img/wave2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transform: rotate(180deg);
+    min-height: 300px;
+}
 /*++++++++++++++++++++++++++++++++++++++ DEBUG ++++++++++++++++++++++++++++++*/
 
 .debug .border-red{
