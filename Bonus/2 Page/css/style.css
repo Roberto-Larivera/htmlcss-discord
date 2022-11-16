@@ -112,27 +112,57 @@ footer .header-button button{
 
 /* HEADER INFERIORE */
 .header-sotto{
-    /* padding-top: 30px; */
-    /* padding: 30px 0; */
-    
-    background-image: url(/img/jumbo.png);
-    background-size: cover;
+   background-color: #255ee9;
 }
 .header-sotto .jumbotron{
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     min-height: 500px;
 }
 .jumbotron{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
-.jumbotron h1 ,
+.jumbotron h1{
+    color: white;
+    font-size: 2.5em;
+    
+}
+
+
+.jumbotron{
+    padding: 50px 0;
+}
+.jumbo-sicurezza{
+    display: flex;
+    align-items: center;
+
+}
+.box-sicuro{
+    cursor: pointer;
+    margin: 20px 0;
+    color: white;
+    width: 50%;
+    border-radius: 20%;
+    padding: 15px;
+
+}
+.box-sicuro h2, .box-sicuro p{
+    padding: 5px 0;
+}
+
+.box-sicuro:hover{
+    transition-duration: 0.3;
+    background-color: rgb(255, 255, 255);
+    color:black ;
+    
+    
+    
+}
+/* .jumbotron h1 ,
 .jumbotron p{
     color: white;
-    text-align: center;
 }
 .jumbotron h1{
     font-size: 2.5em;
@@ -145,7 +175,7 @@ footer .header-button button{
 .jumbotron p{
     font-weight: 500;
 }
-
+ */
 
 /* MAIN SEZIONE  */
 .container-flex{
@@ -363,14 +393,14 @@ footer .header-button button:hover,
 
 .wave-1{
     background-image: url(/img/wave2.svg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     min-height: 300px;
 }
 .wave-2{
     background-image: url(/img/wave2.svg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     transform: rotate(180deg);
