@@ -344,13 +344,21 @@ button:hover{
 }
 .box-4-button button:hover,
 footer .header-button button:hover,
-.header-button button:hover{
+.header-button button:hover,
+.header-sotto button:first-child:hover{
     background: #e7366b;
     
     color: white;
 }
 
-
+.header-sotto button:last-child:hover::after{
+    color: white;
+    content: '\21F2';
+    margin-left: 10px;
+}
+.header-sotto button:last-child:hover{
+    background: #e7366b;
+}
 
 /*++++++++++++++++++++++++++++++++++++++ DEBUG ++++++++++++++++++++++++++++++*/
 
